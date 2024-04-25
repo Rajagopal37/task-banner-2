@@ -14,14 +14,17 @@
 }
 
 .fa-children{
+    position: relative;
+    top:130px;
+    left: 70px;
     width: 100px;
     height: 100px;
     font-size: 50px;
-    border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
-    background-color: rgb(59, 158, 191);
-    outline-color:white ;
-    outline-width: 5px;
+    /* border: 3px solid rgb(0, 0, 0); */
+    /* background-color: rgb(59, 158, 191); */
+    /* outline-color:white ; */
+    /* outline-width: 5px; */
 }
 .heading h1{
     color: rgb(234, 97, 97);
@@ -38,48 +41,18 @@
     font-size: 35px;
     text-align: center;
 }
-.row1_s1{    font-size: 45px;}
-.obese { font-size: 30px ;}
-.yellow1a{
+
+.yellow1a,.yellow6,.yellow4b{
     background-color: rgb(228, 179, 3);
-    color: #fff;
-    text-align: center;
-}
-.blue1b{
-    background-color: rgb(90, 182, 240);
-    color: #fff;
-    text-align: center;
-}
-.red2{
-    background-color: rgb(217, 58, 58);
     color: #fff;
 }
 
-.blue3{
+.blue1b,.blue3,.blue5,.blue7a{
     background-color: rgb(90, 182, 240);
-    color: #fff;
+    color: #fff; 
 }
-.red4a{
-    background-color: rgb(217, 58, 58);
-    color: #fff;
-}
-.yellow4b{
-    background-color: rgb(228, 179, 3);
-    color: #fff;
-}
-.blue5{
-    background-color: rgb(90, 182, 240);
-    color: #fff;
-}
-.yellow6{
-    background-color: rgb(228, 179, 3);
-    color: #fff;
-}
-.blue7a{
-    background-color: rgb(90, 182, 240);
-    color: #fff;
-}
-.red7b{
+
+.red2,.red4a,.red7b{
     background-color: rgb(217, 58, 58);
     color: #fff;
 }
