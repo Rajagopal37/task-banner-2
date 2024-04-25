@@ -11,7 +11,7 @@
     width: 80%;
 }
 
-.fa-solid{
+.fa-children{
     width: 100px;
     height: 100px;
     font-size: 50px;
@@ -32,6 +32,10 @@
     color: #fff;
     text-align: center;
 }
+.fa-child{
+    font-size: 35px;
+    text-align: center;
+}
 .yellow1a{
     background-color: rgb(228, 179, 3);
     color: #fff;
@@ -46,6 +50,7 @@
     background-color: rgb(217, 58, 58);
     color: #fff;
 }
+
 .blue3{
     background-color: rgb(90, 182, 240);
     color: #fff;
