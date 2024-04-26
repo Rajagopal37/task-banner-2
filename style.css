@@ -15,17 +15,21 @@
 
 .fa-children{
     position: relative;
-    top:130px;
-    left: 70px;
-    width: 100px;
-    height: 100px;
+    top:110px;
+    left: 55px;
+    width: 90px;
+    height: 90px;
     font-size: 50px;
     border-radius: 50%;
-    /* border: 3px solid rgb(0, 0, 0); */
-    /* background-color: rgb(59, 158, 191); */
-    /* outline-color:white ; */
-    /* outline-width: 5px; */
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(59, 158, 191);
+    outline-style: solid;
+    outline-color:white ;
+    outline-width: 5px;
+    /* transform: translate(-25%, -20%); */
 }
+ 
+
 .heading h1{
     color: rgb(234, 97, 97);
     font-weight: bolder;
