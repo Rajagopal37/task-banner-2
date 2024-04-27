@@ -9,6 +9,7 @@ li{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: left;
 }
 
 
@@ -40,10 +41,6 @@ li{
     outline-style: solid;
     outline-color:white ;
     outline-width: 5px;
-}
-.heading h1{
-    font-weight: bolder;
-    font-size: 70px;
 }
 
 .fa-child{
