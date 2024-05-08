@@ -1,36 +1,88 @@
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 77, 91);
+    position: relative;
+}
+.subcontainer{
+    margin: 0 auto;
+    width: 70%;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+}
+.hletters{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+   }
+.hlogo{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    position: relative;
+}
 ul{
     display: block;
 }
-
 li{
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: left;
 }
-
-
-
-
-
-.container{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(63, 77, 91);
+ul li h1 {
+    font-size: 70px;
+    font-weight: 400;
+    position: relative;
+    right:20px;
 }
-.subcontainer{
-    margin: 0 auto;
-    width: 80%;
+@media screen and (max-width:1280px) {
+    ul li h1 {
+        /* width: 85%; */
+        font-size: 60px;
+        right:40px;
+    }
+}
+@media screen and (max-width:1080px) {
+    ul li h1 {
+        /* width: 70%; */
+        font-size: 45px;
+        right:40px;
+    }
+}
+@media screen and (max-width:800px) {
+    ul li h1 {
+        /* width: 40%; */
+        font-size: 30px;
+        right:40px;
+    }
+}
+@media screen and (max-width:500px) {
+    ul li h1 {       
+        width: 25%;
+        font-size: 25px;
+        right:40px;
+    }
 }
 .fa-children{
     position: relative;
-    padding-right: 12px ;
+    padding-left: 12px ;
     padding-top: 15px;
     width: 90px;
     height: 90px;
@@ -41,8 +93,8 @@ li{
     outline-style: solid;
     outline-color:white ;
     outline-width: 5px;
+    text-align: left;
 }
-
 .fa-child{
     font-size: 35px;
     text-align: center;
